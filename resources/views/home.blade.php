@@ -8,6 +8,8 @@
     @vite('resources/js/app.js')
 </head>
 <body>
-    <h1 class='text-danger'>io sono laravel</h1>
+   @include('includes.header')
+   @include('includes.main') 
+   @include('includes.footer')
 </body>
 </html>
