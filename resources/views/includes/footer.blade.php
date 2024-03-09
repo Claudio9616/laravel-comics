@@ -3,15 +3,21 @@
             <div class="content-footer-top">
                 <ul>
                     <li>DC COMICS</li>
-                    
+                    @foreach ($links as $link)
+                    <li>{{$link}}</li>
+                    @endforeach  
                 </ul>
                 <ul>
                     <li>DC</li>
-                 
+                @foreach ($links as $link)
+                <li>{{$link}}</li>
+                @endforeach   
                 </ul>
                 <ul>
                     <LI>SITES</LI>
-                 
+                @foreach ($links as $link)
+                <li>{{$link}}</li>
+                @endforeach  
                 </ul>
                 <ul>
                     <li>SHOP</li>
