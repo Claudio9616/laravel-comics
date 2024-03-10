@@ -14,15 +14,15 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    $links = ['Characters', 'Comics', 'Movies', 'TV', 'Games', 'Collectibles', 'Videos', 'Fans', 'News', 'Shop'];
     $comics = config('comics');
-    return view('layouts.home',  compact('links'), compact('comics'));
-});
+    return view('comics', compact('comics'));
+})->name('comics');
 Route::get('/comic', function (){
-    // ricorda di dinamicizzare l'index
     $comics = config('comics');
     return view('comic', ['comics' => $comics[0]]);
 })->name('comic');
-
+Route::get('/games', function(){
+    return view('games');
+})->name('games');
 
 

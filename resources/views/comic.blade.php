@@ -1,14 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    @vite('resources/js/app.js')
-</head>
-
-<body>
+@extends('layouts.main')
+@section('main-content')
 <div class='container'>
     <h1>{{$comics['title']}}</h1>
 </div>
@@ -26,6 +17,4 @@
         </div>
     </div>
 </div>
-</body>
-{{-- ricordati di dinamicizzare l'index --}}
-</html>
+@endsection

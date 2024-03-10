@@ -1,6 +1,6 @@
-{{-- questo è il file con EXTENDS --}}
-@extends('layouts.home')
+@extends('layouts.main')
 @section('main-content')
+<main>
     <div class="container card-container">
         <div class="comics-container">
             <a href='{{route('comic')}}'>
@@ -11,4 +11,5 @@
             </a>
         </div>
     </div>
+</main>
 @endsection

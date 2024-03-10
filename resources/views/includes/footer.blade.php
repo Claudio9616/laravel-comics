@@ -3,21 +3,42 @@
             <div class="content-footer-top">
                 <ul>
                     <li>DC COMICS</li>
-                    @foreach ($links as $link)
-                    <li>{{$link}}</li>
-                    @endforeach  
+                    <li><a>characters</a></li>
+                    <li><a>comics</a></li>
+                    <li><a>movies</a></li>
+                    <li><a>tv</a></li>
+                    <li><a >games</a></li>
+                    <li><a>Collectibles</a></li>
+                    <li><a>videos</a></li>
+                    <li><a>fans</a></li>
+                    <li><a>news</a></li>
+                    <li><a>shop</a></li>
                 </ul>
                 <ul>
                     <li>DC</li>
-                @foreach ($links as $link)
-                <li>{{$link}}</li>
-                @endforeach   
+                    <li><a>characters</a></li>
+                    <li><a>comics</a></li>
+                    <li><a>movies</a></li>
+                    <li><a>tv</a></li>
+                    <li><a >games</a></li>
+                    <li><a>Collectibles</a></li>
+                    <li><a>videos</a></li>
+                    <li><a>fans</a></li>
+                    <li><a>news</a></li>
+                    <li><a>shop</a></li>
                 </ul>
                 <ul>
                     <LI>SITES</LI>
-                @foreach ($links as $link)
-                <li>{{$link}}</li>
-                @endforeach  
+                    <li><a>characters</a></li>
+                    <li><a>comics</a></li>
+                    <li><a>movies</a></li>
+                    <li><a>tv</a></li>
+                    <li><a >games</a></li>
+                    <li><a>Collectibles</a></li>
+                    <li><a>videos</a></li>
+                    <li><a>fans</a></li>
+                    <li><a>news</a></li>
+                    <li><a>shop</a></li>
                 </ul>
                 <ul>
                     <li>SHOP</li>
