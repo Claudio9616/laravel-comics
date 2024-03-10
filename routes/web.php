@@ -17,10 +17,12 @@ Route::get('/', function () {
     $comics = config('comics');
     return view('comics', compact('comics'));
 })->name('comics');
-Route::get('/comic', function (){
+
+Route::get('/comic/{index}', function ($index){
     $comics = config('comics');
-    return view('comic', ['comics' => $comics[0]]);
+    return view('comic', ['comics' => $comics[$index]]);
 })->name('comic');
+
 Route::get('/games', function(){
     return view('games');
 })->name('games');
